@@ -532,9 +532,9 @@ MonoBehaviour:
   radialBlurIterations: 2
   sunColor: {r: .713235259, g: .490873665, b: .409061402, a: 1}
   sunShaftBlurRadius: 2.5
-  sunShaftIntensity: 1.14999998
+  sunShaftIntensity: 1.5
   useSkyBoxAlpha: .75
-  maxRadius: .75
+  maxRadius: .603999972
   useDepthTexture: 1
   sunShaftsShader: {fileID: 4800000, guid: d3b1c8c1036784176946f5cfbfb7fe4c, type: 3}
   simpleClearShader: {fileID: 4800000, guid: f688f89ed5eb847c5b19c934a0f1e772, type: 3}
