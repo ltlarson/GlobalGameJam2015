@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ButtonPusher.cs" />
+     <Compile Include="Assets\Scripts\FatGuy.cs" />
+     <Compile Include="Assets\Scripts\StrongManScript.cs" />
      <Compile Include="Assets\Scripts\UI\ActivePlayerSelected.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
