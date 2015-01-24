@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
         recording = GetComponent<Recorder>();
     }
 
-    Actions action;
+    public Actions action;
     public float speed;
     void Update()
     {
