@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public enum CharacterSelected { Red,Green,Blue};
+public enum CharacterSelected { Red,Yellow,Blue};
 public class ActivePlayerSelected : MonoBehaviour {
     public Image Arrow;
     
