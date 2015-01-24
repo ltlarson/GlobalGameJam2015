@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.GameJamGame.CSharp.Plugins", "UnityVS.GameJamGame.CSharp.Plugins.csproj", "{95F477DE-12CF-76C0-D8C6-D37C0CD2CC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.GameJamGame.CSharp", "UnityVS.GameJamGame.CSharp.csproj", "{A5800178-784D-0048-4F61-229758545EC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95F477DE-12CF-76C0-D8C6-D37C0CD2CC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F477DE-12CF-76C0-D8C6-D37C0CD2CC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F477DE-12CF-76C0-D8C6-D37C0CD2CC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F477DE-12CF-76C0-D8C6-D37C0CD2CC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5800178-784D-0048-4F61-229758545EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5800178-784D-0048-4F61-229758545EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5800178-784D-0048-4F61-229758545EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5800178-784D-0048-4F61-229758545EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
