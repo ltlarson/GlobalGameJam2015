@@ -65,7 +65,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonPusher.cs" />
     <Compile Include="Assets\Scripts\FatGuy.cs" />
+    <Compile Include="Assets\Scripts\Interactables\Button.cs" />
+    <Compile Include="Assets\Scripts\MasterController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\Recorder.cs" />
     <Compile Include="Assets\Scripts\StrongManScript.cs" />
+    <Compile Include="Assets\Scripts\UI.cs" />
     <Compile Include="Assets\Scripts\UI\ActivePlayerSelected.cs" />
   </ItemGroup>
   <ItemGroup>
