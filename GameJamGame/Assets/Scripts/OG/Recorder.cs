@@ -47,7 +47,6 @@ public class Recorder : MonoBehaviour
                 }
                 else if (Input.GetKey(KeyCode.RightArrow))
                 {
-                    Debug.Log("Recording Input for " + this.name);
                     recordedInput.Add(Controls.right);
                 }
                 else if (Input.GetKey(KeyCode.LeftArrow))
@@ -71,7 +70,6 @@ public class Recorder : MonoBehaviour
     {
         if (RecordingCharacterIsThis())
         {
-            Debug.Log("Switched to: " + recordingCharacter);
             recordedInput.Clear();
         }
         streamIndexer = 0;
