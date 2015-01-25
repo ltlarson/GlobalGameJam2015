@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\OG\Recorder.cs" />
     <Compile Include="Assets\Scripts\OG\StrongManReceiver.cs" />
     <Compile Include="Assets\Scripts\UI\ActivePlayerSelected.cs" />
+    <Compile Include="Assets\Scripts\UI\CameraMoveMent.cs" />
     <Compile Include="Assets\startButton.cs" />
   </ItemGroup>
   <ItemGroup>
