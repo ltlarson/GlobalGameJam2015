@@ -30,19 +30,7 @@ public class FatGuy : MonoBehaviour
                 jumpCounter = 4;
                 onFloor = false;
             }
-            else if (onFloor == true)
-            {
-                if (Input.GetKey(KeyCode.RightArrow) == true)
-                {
-                    transform.position += Vector3.right * Time.deltaTime * 5f;
-                }
-
-                else if (Input.GetKey(KeyCode.LeftArrow) == true)
-                {
-                    transform.position += Vector3.left * Time.deltaTime * 5f;
-                }
-
-            }
+        
             
         }
     }
@@ -51,15 +39,11 @@ public class FatGuy : MonoBehaviour
     {
         if(col.gameObject.tag == "Floor" && isJumping == true)
         {
-            GameObject[] boulders = GameObject.FindGameObjectsWithTag("Boulder");
-            for(int i = 0; i<boulders.Length; i++)
-            {
-                if(boulders[i].name == "Boulder " + col.gameObject.name)
-                {
-                    boulders[i].transform.rigidbody.useGravity = true;
-                    boulders[i].transform.rigidbody.isKinematic = false;
-                }
-            }
+            GameObject boulder = GameObject.FindGameObjectWithTag("Boulder");
+
+            boulder.transform.rigidbody.isKinematic = false;
+            boulder.transform.rigidbody.useGravity = true;
+                        
             onFloor = true;
             isJumping = false;
         }
@@ -67,7 +51,7 @@ public class FatGuy : MonoBehaviour
         if(col.gameObject.tag == "Boulder")
         {
             col.gameObject.transform.rigidbody.isKinematic = true;
-            Velocity = Vector3.zero;
+
 
         }
     }

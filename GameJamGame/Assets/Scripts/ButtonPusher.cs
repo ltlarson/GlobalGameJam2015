@@ -48,4 +48,13 @@ public class ButtonPusher : MonoBehaviour
 
         }
     }
+    void OnCollisionEnter(Collision col)
+    {
+
+        if (col.gameObject.tag == "Boulder")
+        {
+            col.gameObject.transform.rigidbody.useGravity = false;
+            col.gameObject.transform.rigidbody.isKinematic = true;
+        }
+    }
 }
