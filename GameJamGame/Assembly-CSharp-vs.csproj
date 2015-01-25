@@ -51,9 +51,12 @@
      <Compile Include="Assets\Scripts\InteractableButton.cs" />
      <Compile Include="Assets\Scripts\Interactables\Button.cs" />
      <Compile Include="Assets\Scripts\MasterController.cs" />
+     <Compile Include="Assets\Scripts\OG\CharacterSelect.cs" />
+     <Compile Include="Assets\Scripts\OG\Receiver.cs" />
+     <Compile Include="Assets\Scripts\OG\Recorder.cs" />
+     <Compile Include="Assets\Scripts\OG\StrongManReceiver.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerControls.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Player\Recorder.cs" />
      <Compile Include="Assets\Scripts\StrongManScript.cs" />
      <Compile Include="Assets\Scripts\UI.cs" />
      <Compile Include="Assets\Scripts\UI\ActivePlayerSelected.cs" />
@@ -130,7 +133,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Jack/Documents/GitHub/GlobalGameJam2015/GameJamGame/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Brandon/Documents/GitHub/GlobalGameJam2015/GameJamGame/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
