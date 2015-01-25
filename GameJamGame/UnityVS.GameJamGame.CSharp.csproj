@@ -66,14 +66,12 @@
     <Compile Include="Assets\Level1FilingCabinet.cs" />
     <Compile Include="Assets\Scripts\Level1Button.cs" />
     <Compile Include="Assets\Scripts\OG\CharacterSelect.cs" />
-    <Compile Include="Assets\Scripts\OG\LightningSpawner.cs" />
     <Compile Include="Assets\Scripts\OG\Receiver.cs" />
     <Compile Include="Assets\Scripts\OG\Recorder.cs" />
     <Compile Include="Assets\Scripts\OG\StrongManReceiver.cs" />
     <Compile Include="Assets\Scripts\UI\ActivePlayerSelected.cs" />
     <Compile Include="Assets\Scripts\UI\CameraMoveMent.cs" />
     <Compile Include="Assets\startButton.cs" />
-    <Compile Include="Assets\zStuffGregDid\WallCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />

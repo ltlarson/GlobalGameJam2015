@@ -14,7 +14,7 @@ public class Level1FilingCabinet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rigidbody != null && triggering)
+        if (triggering)
         {
             rigidbody.useGravity = true;
         }
