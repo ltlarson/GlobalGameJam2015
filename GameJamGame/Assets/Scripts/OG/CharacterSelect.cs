@@ -44,7 +44,6 @@ public class CharacterSelect : MonoBehaviour
                 character.GetComponent<Recorder>().recordedInput.Clear();
                 Recorder.recordingCharacter = Recorder.RecordingCharacter.None;
                 character.GetComponent<Recorder>().streamIndexer = 0;
-                Debug.Log("Restart");
                 character.transform.position = character.GetComponent<Receiver>().startPosition;
             }
             CharacterSelect.characterSelected = false;
@@ -66,7 +65,6 @@ public class CharacterSelect : MonoBehaviour
                 {
                     selectedCharacter = SelectedCharacter.StrongMan;
                 }
-                Debug.Log("Selecting: " + selectedCharacter);
             }
             else if (Input.GetKeyDown(KeyCode.DownArrow))
             {
@@ -82,13 +80,11 @@ public class CharacterSelect : MonoBehaviour
                 {
                     selectedCharacter = SelectedCharacter.ButtonPusher;
                 }
-                Debug.Log("Selecting: " + selectedCharacter);
             }
             else if (Input.GetKeyDown(KeyCode.Return))
             {
                 Recorder.recordingCharacter = (Recorder.RecordingCharacter)selectedCharacter + 1;
                 characterSelected = true;
-                Debug.Log("Selected: " + selectedCharacter);
             }
             ActivePlayerSelected.SetActive(selectedCharacter);
         }

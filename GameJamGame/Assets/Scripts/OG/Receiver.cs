@@ -11,28 +11,36 @@ public class Receiver : MonoBehaviour
     }
 
     public float speed;
+    public Controls currentControl;
+
+    public void Update()
+    {
+
+    }
+
     public virtual void RecieveControl(Controls control)
     {
-        Debug.Log(this.name + " recieved " + control + " control");
         if (control == Controls.left)
         {
-            transform.position += speed * transform.right * -1 * Time.deltaTime;
+            currentControl = Controls.left;
+            transform.position += speed * transform.forward * -1 * Time.deltaTime;
         }
         else if (control == Controls.right)
         {
-            transform.position += speed * transform.right * Time.deltaTime;
+            currentControl = Controls.right;
+            transform.position += speed * transform.forward * Time.deltaTime;
         }
         else if (control == Controls.special)
         {
-
+            currentControl = Controls.special;
         }
         else if (control == Controls.nothing)
         {
-
+            currentControl = Controls.nothing;
         }
         else
         {
-
+            currentControl = Controls.nothing;
         }
     }
 }

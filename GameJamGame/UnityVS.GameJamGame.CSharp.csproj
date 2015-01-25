@@ -63,6 +63,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Level1FilingCabinet.cs" />
+    <Compile Include="Assets\Scripts\Level1Button.cs" />
     <Compile Include="Assets\Scripts\OG\CharacterSelect.cs" />
     <Compile Include="Assets\Scripts\OG\Receiver.cs" />
     <Compile Include="Assets\Scripts\OG\Recorder.cs" />
