@@ -63,10 +63,7 @@ public class Recorder : MonoBehaviour
                     recordedInput.Add(Controls.nothing);
                 }
             }
-            //else if (!RecordingCharacterIsThis())
-            //{
             StreamToCharacter();
-            //}
         }
     }
 

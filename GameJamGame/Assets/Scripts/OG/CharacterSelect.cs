@@ -1,10 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+public enum SelectedCharacter
+{
+    JumpyFatty,
+    ButtonPusher,
+    StrongMan
 
+}
 public class CharacterSelect : MonoBehaviour
 {
-    [HideInInspector]
     public List<GameObject> characters;
     void CharacterSwitch()
     {
@@ -13,6 +18,7 @@ public class CharacterSelect : MonoBehaviour
             if (Recorder.recordingCharacter.ToString() == character.name)
             {
                 character.GetComponent<Recorder>().recordedInput.Clear();
+                ActivePlayerSelected.SetActive((SelectedCharacter)Recorder.recordingCharacter - 1);
             }
             character.GetComponent<Recorder>().streamIndexer = 0;
             character.transform.position = character.GetComponent<Receiver>().startPosition;
@@ -24,13 +30,7 @@ public class CharacterSelect : MonoBehaviour
     {
         selectedCharacter = SelectedCharacter.ButtonPusher;
         characterSelected = false;
-    }
-
-    public enum SelectedCharacter
-    {
-        ButtonPusher,
-        StrongMan,
-        JumpyFatty
+        ActivePlayerSelected.SetActive(selectedCharacter);
     }
 
     public static SelectedCharacter selectedCharacter;
@@ -90,6 +90,7 @@ public class CharacterSelect : MonoBehaviour
                 characterSelected = true;
                 Debug.Log("Selected: " + selectedCharacter);
             }
+            ActivePlayerSelected.SetActive(selectedCharacter);
         }
         else
         {
