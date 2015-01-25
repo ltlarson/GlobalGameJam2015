@@ -25,9 +25,10 @@ public class Level1Button : MonoBehaviour
         }
         else
         {
-            if (door.transform.position.y > startY)
+            if (door.rigidbody != null && door.transform.position.y > startY)
             {
-                door.transform.position = Vector3.Lerp(door.transform.position, new Vector3(door.transform.position.x, startY, door.transform.position.z), .1f);
+                door.rigidbody.AddForce(Vector3.down*20000, ForceMode.Force);
+                //door.transform.position = Vector3.Lerp(door.transform.position, new Vector3(door.transform.position.x, startY, door.transform.position.z), .1f);
             }
             if (door.transform.position.y <= startY)
             {
@@ -41,7 +42,7 @@ public class Level1Button : MonoBehaviour
         }
     }
 
-    bool triggering;
+    public static bool triggering;
     public float speed;
     void OnTriggerStay(Collider other)
     {
