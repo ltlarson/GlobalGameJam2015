@@ -6,57 +6,29 @@ ModelImporter:
     100000: Body
     100002: //RootNode
     100004: Hat
-    100006: Head
-    100008: joint1
-    100010: joint10
-    100012: joint11
-    100014: joint12
-    100016: joint13
-    100018: joint14
-    100020: joint2
-    100022: joint3
-    100024: joint4
-    100026: joint5
-    100028: joint6
-    100030: joint7
-    100032: joint8
-    100034: joint9
-    100036: L_Foot
-    100038: R_Foot
+    100006: L_Foot
+    100008: R_Foot
     400000: Body
     400002: //RootNode
     400004: Hat
-    400006: Head
-    400008: joint1
-    400010: joint10
-    400012: joint11
-    400014: joint12
-    400016: joint13
-    400018: joint14
-    400020: joint2
-    400022: joint3
-    400024: joint4
-    400026: joint5
-    400028: joint6
-    400030: joint7
-    400032: joint8
-    400034: joint9
-    400036: L_Foot
-    400038: R_Foot
-    2300000: Hat
-    2300002: Head
-    3300000: Hat
-    3300002: Head
-    4300000: Body
-    4300002: R_Foot
-    4300004: L_Foot
-    4300006: Hat
-    4300008: Head
-    7400000: Take 001
+    400006: L_Foot
+    400008: R_Foot
+    2300000: Body
+    2300002: //RootNode
+    2300004: Hat
+    2300006: L_Foot
+    2300008: R_Foot
+    3300000: Body
+    3300002: //RootNode
+    3300004: Hat
+    3300006: L_Foot
+    3300008: R_Foot
+    4300000: Head
+    4300002: Hat
+    4300004: Body
+    4300006: R_Foot
+    4300008: L_Foot
     9500000: //RootNode
-    13700000: Body
-    13700002: L_Foot
-    13700004: R_Foot
   materials:
     importMaterials: 1
     materialName: 0
