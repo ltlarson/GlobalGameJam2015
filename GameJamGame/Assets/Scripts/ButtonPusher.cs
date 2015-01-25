@@ -17,23 +17,23 @@ public class ButtonPusher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Velocity = Vector3.zero;
-        if (onFloor == true)
-        {
-            if (Input.GetKey(KeyCode.RightArrow) == true)
-            {
-                transform.position -= Vector3.right * Time.deltaTime * 5f;
-            }
+        /* Velocity = Vector3.zero;
+         if (onFloor == true)
+         {
+             if (Input.GetKey(KeyCode.RightArrow) == true)
+             {
+                 transform.position -= Vector3.right * Time.deltaTime * 5f;
+             }
 
-            else if (Input.GetKey(KeyCode.LeftArrow) == true)
-            {
-                transform.position += Vector3.right * Time.deltaTime * 5f;
-            }
+             else if (Input.GetKey(KeyCode.LeftArrow) == true)
+             {
+                 transform.position += Vector3.right * Time.deltaTime * 5f;
+             }
 
-            transform.rigidbody.velocity = Velocity;
+             transform.rigidbody.velocity = Velocity;
 
-        }
-
+         }
+         */
 
     }
 

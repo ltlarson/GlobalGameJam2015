@@ -28,6 +28,10 @@ public class PlayerControls : MonoBehaviour
             {
                 recording.RecieveAction((int)Actions.right);
             }
+            else if (Input.GetKey(KeyCode.Space))
+            {
+                recording.RecieveAction((int)Actions.special);
+            }
             else
             {
                 recording.RecieveAction((int)Actions.nothing);

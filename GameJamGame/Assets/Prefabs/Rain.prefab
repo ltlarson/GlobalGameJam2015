@@ -1088,7 +1088,7 @@ ParticleSystemRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 091ee752dbec9e94280335188b8a44d5, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1104,7 +1104,7 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 0
   m_SortMode: 0
-  m_Mesh: {fileID: 4300000, guid: 6d0610070f53aaf44bc0f90db543a268, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 7c2203bd7e5342a4ea4c11a76940edc4, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}

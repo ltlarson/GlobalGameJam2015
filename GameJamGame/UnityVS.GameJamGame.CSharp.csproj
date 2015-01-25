@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonPusher.cs" />
     <Compile Include="Assets\Scripts\FatGuy.cs" />
+    <Compile Include="Assets\Scripts\InteractableButton.cs" />
     <Compile Include="Assets\Scripts\Interactables\Button.cs" />
     <Compile Include="Assets\Scripts\MasterController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControls.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\Scripts\StrongManScript.cs" />
     <Compile Include="Assets\Scripts\UI.cs" />
     <Compile Include="Assets\Scripts\UI\ActivePlayerSelected.cs" />
+    <Compile Include="Assets\Scripts\Wall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
