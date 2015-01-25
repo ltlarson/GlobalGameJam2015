@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\OG\CharacterSelect.cs" />
+     <Compile Include="Assets\Scripts\OG\LightningSpawner.cs" />
      <Compile Include="Assets\Scripts\OG\Receiver.cs" />
      <Compile Include="Assets\Scripts\OG\Recorder.cs" />
      <Compile Include="Assets\Scripts\OG\StrongManReceiver.cs" />
